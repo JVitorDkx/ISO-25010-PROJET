@@ -103,3 +103,51 @@ p {
   color: #777; 
   font-size: 0.95rem;
 }
+
+
+.info-section {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  text-align: left;
+}
+
+table th {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.timeline {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 4px solid #2ecc71;
+}
+
+.timeline-item {
+  margin-bottom: 1rem;
+}
+
+.timeline-item h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.timeline-item p {
+  margin: 0.3rem 0 0;
+  color: #555;
+}
